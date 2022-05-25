@@ -1,9 +1,88 @@
-.column {
-  width: 400px;
-  float:left;
-  background-color:grey;
+.box-head { 
+  width: 100%;
+  border: solid black;
+  border-width: 5px;
+  background-color: gray;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  float:top;
+  text-align: center;
+  padding: 10px;
 }
 
-body{
-  background-image: url(https://i.pinimg.com/originals/88/02/8c/88028cfdb33f9e1770816b7a1d7f8a20.jpg)
+.sidenav {
+  height: 100%;
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 25%; 
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.box1 {
+  width: 33%;
+  border: solid black;
+  border-width: 5px;
+  background-color: gray;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  float:left;
+  text-align: center;
+}
+
+.box2 {
+  width: 33%;
+  border: solid black;
+  border-width: 5px;
+  background-color: lightgray;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  float:left;
+  text-align: center;
+}
+
+.box3 {
+  width: 33%;
+  border: solid black;
+  border-width: 5px;
+  background-color: darkslategray;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  float:left;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  width:auto\9; /* ie8 */ 
+}
+body { 
+    background-image: url(https://cdn.onekindesign.com/wp-content/uploads/2019/08/Unbelievable-Rustic-Kitchen-Design-Ideas-05-1-Kindesign.jpg);
 }
