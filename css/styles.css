@@ -1,0 +1,9 @@
+.column {
+  width: 400px;
+  float:left;
+  background-color:grey;
+}
+
+body{
+  background-image: url(https://i.pinimg.com/originals/88/02/8c/88028cfdb33f9e1770816b7a1d7f8a20.jpg)
+}
